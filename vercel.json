@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm run build",
+  "devCommand": "pnpm run dev",
+  "installCommand": "pnpm install",
+  "framework": "remix",
+  "regions": ["all"],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "github": {
+    "silent": true,
+    "autoAlias": true
+  },
+  "functions": {
+    "api/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
+}
