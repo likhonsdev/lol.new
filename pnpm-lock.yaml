@@ -95,6 +95,9 @@ importers:
       '@unocss/reset':
         specifier: ^0.61.0
         version: 0.61.3
+      '@vercel/edge':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@vercel/remix':
         specifier: ^2.15.3
         version: 2.15.3(@remix-run/dev@2.10.0(@remix-run/react@2.10.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.2))(@remix-run/serve@2.10.0(typescript@5.5.2))(@types/node@22.15.17)(sass@1.77.6)(ts-node@10.9.1(@types/node@22.15.17)(typescript@5.5.2))(typescript@5.5.2)(vite@5.3.1(@types/node@22.15.17)(sass@1.77.6))(wrangler@3.63.2(@cloudflare/workers-types@4.20240620.0)))(@remix-run/node@2.10.2(typescript@5.5.2))(@remix-run/server-runtime@2.10.2(typescript@5.5.2))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1997,6 +2000,9 @@ packages:
 
   '@vercel/build-utils@10.5.1':
     resolution: {integrity: sha512-BtqwEmU1AoITpd0KxYrdQOwyKZL8RKba+bWxI8mr3gXPQZWRAE9ok1zF0AXfvMGCstYPHBPNolZGDSfWmY2jqg==}
+
+  '@vercel/edge@1.2.1':
+    resolution: {integrity: sha512-1++yncEyIAi68D3UEOlytYb1IUcIulMWdoSzX2h9LuSeeyR7JtaIgR8DcTQ6+DmYOQn+5MCh6LY+UmK6QBByNA==}
 
   '@vercel/error-utils@2.0.3':
     resolution: {integrity: sha512-CqC01WZxbLUxoiVdh9B/poPbNpY9U+tO1N9oWHwTl5YAZxcqXmmWJ8KNMFItJCUUWdY3J3xv8LvAuQv2KZ5YdQ==}
@@ -7559,6 +7565,8 @@ snapshots:
   '@vanilla-extract/private@1.0.5': {}
 
   '@vercel/build-utils@10.5.1': {}
+
+  '@vercel/edge@1.2.1': {}
 
   '@vercel/error-utils@2.0.3': {}
 
