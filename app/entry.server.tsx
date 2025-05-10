@@ -5,6 +5,11 @@ import { renderToReadableStream } from 'react-dom/server';
 import { renderHeadToString } from 'remix-island';
 import { Head } from './root';
 import { themeStore } from '~/lib/stores/theme';
+import { validateProductionEnv } from '~/utils/env.production';
+
+if (process.env.NODE_ENV === 'production') {
+  validateProductionEnv();
+}
 
 export default async function handleRequest(
   request: Request,
