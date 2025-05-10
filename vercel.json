@@ -4,13 +4,7 @@
   "buildCommand": "pnpm run build",
   "devCommand": "pnpm run dev",
   "installCommand": "pnpm install",
-  "regions": ["all"],
-  "functions": {
-    "api/**/*": {
-      "memory": 1024,
-      "maxDuration": 60
-    }
-  },
+  "regions": ["iad1"],
   "env": {
     "NODE_ENV": "production"
   },

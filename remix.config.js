@@ -2,12 +2,12 @@
 module.exports = {
   ignoredRouteFiles: ["**/.*"],
   server: "./app/entry.server.tsx",
-  serverConditions: ["worker", "browser", "edge-light"],
+  serverConditions: ["node", "import", "require"],
   serverDependenciesToBundle: "all",
-  serverMainFields: ["browser", "module", "main"],
+  serverMainFields: ["module", "main"],
   serverMinify: true,
   serverModuleFormat: "esm",
-  serverPlatform: "neutral",
+  serverPlatform: "node",
   publicPath: "/build/",
   serverNodeBuiltinsPolyfill: {
     modules: {
